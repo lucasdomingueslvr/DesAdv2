@@ -1,8 +1,11 @@
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { StyleSheet, Text, View, Modal, TouchableOpacity } from 'react-native';
-import { CustomModalScreen } from './components/CustomModal';
+import {  Text, View, Modal, TouchableOpacity } from 'react-native';
+import  CustomModalScreen  from './components/CustomModal';
 import { StyleSheet } from './styles/ModalStyles';
 import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
+const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (

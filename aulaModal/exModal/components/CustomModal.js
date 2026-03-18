@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import {  StyleSheet, Text, View, Modal, TouchableOpacity } from 'react-native';
+import {   Text, View, Modal, TouchableOpacity } from 'react-native';
 import {  SafeAreaView } from 'react-native-safe-area-context';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
 import { StyleSheet} from '../styles/ModalStyles';
 
 /**
@@ -63,7 +63,7 @@ const CustomModalScreen = ({ animation, themeColor }) => {
 };
 
 
-const Tab = createBottomTabNavigator();
+
 
 
 
